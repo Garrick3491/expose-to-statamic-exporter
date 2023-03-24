@@ -4,7 +4,9 @@
     "type": "library",
     "require": {
         "laravel/laravel": "^9.0",
-        "statamic/cms": "^3.4"
+        "statamic/cms": "^3.4",
+        "ueberdosis/tiptap-php": "^1.1",
+        "netcarver/textile": "^4.0"
     },
     "license": "MIT",
     "autoload": {
