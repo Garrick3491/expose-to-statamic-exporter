@@ -3,7 +3,7 @@
     "description": "A Pacakge to assist with exporting data from Expose Cake to Statamic Laravel",
     "type": "library",
     "require": {
-        "laravel/laravel": "^10.0",
+        "laravel/laravel": "^9.0",
         "statamic/cms": "^3.4"
     },
     "license": "MIT",
@@ -17,5 +17,10 @@
             "name": "Simon Garrick",
             "email": "simon.garrick@parall.ax"
         }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    }
 }
