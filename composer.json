@@ -1,0 +1,21 @@
+{
+    "name": "parallax/expose-statamic-export",
+    "description": "A Pacakge to assist with exporting data from Expose Cake to Statamic Laravel",
+    "type": "library",
+    "require": {
+        "laravel/laravel": "^10.0",
+        "statamic/cms": "^3.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Parallax\\ExposeStatamicExport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Simon Garrick",
+            "email": "simon.garrick@parall.ax"
+        }
+    ]
+}
