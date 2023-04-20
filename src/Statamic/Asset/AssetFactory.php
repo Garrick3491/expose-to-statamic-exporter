@@ -1,8 +1,7 @@
 <?php 
 namespace Parallax\ExposeStatamicExport\Statamic\Asset;
 
-use Illuminate\Http\File;
-use Illuminate\Http\UploadedFile;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Parallax\ExposeStatamicExport\Statamic\Entry\Exception\DoesNotExistException;
 use Statamic\Assets\AssetContainer;
 use Statamic\Facades\Entry;
@@ -14,10 +13,10 @@ class AssetFactory
 
         $container = AssetContainer::find($container);
 
-        $asset = $container->makeAsset(strtolower($fileName));
+        $asset = $container->makeAsset($fileName);
 
         
-        $file = new File($filePath);
+        $file = new UploadedFile($filePath, $fileName);
 
         $asset->upload($file);
 

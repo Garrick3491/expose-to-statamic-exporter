@@ -6,7 +6,8 @@
         "laravel/laravel": "^9.0",
         "statamic/cms": "^3.4",
         "ueberdosis/tiptap-php": "^1.1",
-        "netcarver/textile": "^4.0"
+        "netcarver/textile": "^4.0",
+        "ueberdosis/prosemirror-php": "^0.3.0"
     },
     "license": "MIT",
     "autoload": {

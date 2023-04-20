@@ -12,6 +12,8 @@ class EntryFactory
         $entry->collection($collection)
             ->slug($slug)
             ->blueprint($blueprint);
+
+        return $entry;
     }
 
     

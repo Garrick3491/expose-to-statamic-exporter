@@ -10,7 +10,7 @@ class EntryRetriver{
     {
         $entry = Entry::query()
             ->where('collection', $collection)
-            ->where('id', $id);
+            ->where('id', $id)->first();
 
         if (!$entry)
         {
