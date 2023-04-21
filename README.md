@@ -6,8 +6,15 @@ This package can be used to assist with the export of Expose CMS data into a Sta
 Example Step by Step.
 - Get News Articles from DB
 - Loop through Each Article:
-    - 
-
+    - Check if Entry Exists
+    - If not Create, else fetch
+    - build a data array (title, template, published and any other fields you might require)
+    - For the Entry body you can start building up HTML body, then add to this using the Textile Parser.
+    - if an image is required use the AssetFactory to create one. and add this to the data array using the filename.
+    - If an image is to be displayed in the body of the post add `<img src='asset::container_name::fileName'/>` to the HTML body
+    - If any terms are Required use the TermFactory to create one by passing the Taxonomy and the Slug.
+    - the html body can be passed to the HtmlToProseMirrorJsonConverter and then added ot the Data.
+    - Once finished call save on any Entries
 ---
 
 
