@@ -1,11 +1,12 @@
-<?php 
+<?php
 
 namespace Parallax\ExposeStatamicExport\Tests\ProseMirror;
 
 use Parallax\ExposeStatamicExport\ProseMirror\HtmlToProseMirrorJsonConverter;
 use Parallax\ExposeStatamicExport\Tests\TestCase;
-final class HtmlToProseMirrorJsonConverterTest extends TestCase {
 
+final class HtmlToProseMirrorJsonConverterTest extends TestCase
+{
     /**
      * @test
      */
@@ -33,5 +34,3 @@ final class HtmlToProseMirrorJsonConverterTest extends TestCase {
         $this->assertJsonStringEqualsJsonString(json_encode($expected), json_encode($json));
     }
 }
-
-?>

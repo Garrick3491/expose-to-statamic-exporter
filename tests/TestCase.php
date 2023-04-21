@@ -1,9 +1,7 @@
-<?php 
+<?php
 
-    namespace Parallax\ExposeStatamicExport\Tests;
+namespace Parallax\ExposeStatamicExport\Tests;
 
-    abstract class TestCase extends \PHPUnit\Framework\TestCase
-    {
-        
-    }
-?>
+abstract class TestCase extends \PHPUnit\Framework\TestCase
+{
+}
