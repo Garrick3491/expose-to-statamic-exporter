@@ -3,11 +3,18 @@
 namespace Parallax\ExposeStatamicExport\ProseMirror;
 
 use ProseMirror\ProseMirror;
+use Tiptap\Editor;
 
 class HtmlToProseMirrorJsonConverter
 {
+
+    public function __construct(protected Editor $editor)
+    {
+
+    }
     public function convertHtmlToProseMirrorJson(string $html)
     {
-        return ProseMirror::htmlToJson($html);
+        return $this->editor->setContent($html)
+            ->getJSON();
     }
 }

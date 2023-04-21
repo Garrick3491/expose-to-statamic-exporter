@@ -4,6 +4,7 @@ namespace Parallax\ExposeStatamicExport\Tests\ProseMirror;
 
 use Parallax\ExposeStatamicExport\ProseMirror\HtmlToProseMirrorJsonConverter;
 use Parallax\ExposeStatamicExport\Tests\TestCase;
+use Tiptap\Editor;
 
 final class HtmlToProseMirrorJsonConverterTest extends TestCase
 {
@@ -12,9 +13,10 @@ final class HtmlToProseMirrorJsonConverterTest extends TestCase
      */
     public function ItShouldReturnProseMirrorJsonForAGivenHtmlString()
     {
-        $htmlToJsonConverter = new HtmlToProseMirrorJsonConverter();
+        $htmlToJsonConverter = new HtmlToProseMirrorJsonConverter(new Editor());
 
-        $expected = [
+        $expected = json_encode(
+          [
             "type" => "doc",
             "content" => [
               [
@@ -27,10 +29,11 @@ final class HtmlToProseMirrorJsonConverterTest extends TestCase
                 ]
               ]
             ]
-        ];
+        ]
+                  );
 
-        $json = $htmlToJsonConverter->convertHtmlToProseMirrorJson('<p>Hello World</p>');
+        $json = $htmlToJsonConverter->convertHtmlToProseMirrorJson('<p>Hello World</p>'); 
 
-        $this->assertJsonStringEqualsJsonString(json_encode($expected), json_encode($json));
+        $this->assertJsonStringEqualsJsonString($expected, $json);
     }
 }

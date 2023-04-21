@@ -2,6 +2,8 @@
 
 namespace Parallax\ExposeStatamicExport\Tests;
 
-abstract class TestCase extends \PHPUnit\Framework\TestCase
+use Orchestra\Testbench\TestCase as TestbenchTestCase;
+
+abstract class TestCase extends TestbenchTestCase
 {
 }

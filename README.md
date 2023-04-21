@@ -1,4 +1,4 @@
-# :package_description
+# Expose to Statamic Exporter
 
 ---
 This package can be used to assist with the export of Expose CMS data into a Statamic CMS project.

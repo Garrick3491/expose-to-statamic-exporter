@@ -4,7 +4,7 @@ namespace Parallax\ExposeStatamicExport\Statamic\Asset;
 
 use Statamic\Facades\Asset;
 
-class EntryExists
+class AssetExists
 {
     public function doesAssetExist(string $assetContainer, string $fileName)
     {
