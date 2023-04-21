@@ -1,7 +1,6 @@
-<?php 
-namespace Parallax\ExposeStatamicExport\Statamic\Entry\Exception;
+<?php
 
-use Statamic\Facades\Entry;
+namespace Parallax\ExposeStatamicExport\Statamic\Entry\Exception;
 
 class DoesNotExistException extends \Exception
 {

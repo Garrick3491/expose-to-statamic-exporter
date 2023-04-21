@@ -1,15 +1,13 @@
-<?php 
+<?php
 
 namespace Parallax\ExposeStatamicExport\ProseMirror;
 
 use ProseMirror\ProseMirror;
 
-class HtmlToProseMirrorJsonConverter{
-    
+class HtmlToProseMirrorJsonConverter
+{
     public function convertHtmlToProseMirrorJson(string $html)
     {
         return ProseMirror::htmlToJson($html);
     }
 }
-
-?>

@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 namespace Parallax\ExposeStatamicExport\Statamic\Entry;
 
 use Statamic\Facades\Entry;
@@ -11,13 +12,10 @@ class EntryExists
             ->where('collection', $collection)
             ->where('id', $id);
 
-        if ($entry)
-        {
+        if ($entry) {
             return true;
         }
 
         return false;
     }
 }
-
-?>
