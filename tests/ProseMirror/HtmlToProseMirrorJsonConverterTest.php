@@ -16,7 +16,7 @@ final class HtmlToProseMirrorJsonConverterTest extends TestCase
         $htmlToJsonConverter = new HtmlToProseMirrorJsonConverter(new Editor());
 
         $expected = json_encode(
-          [
+            [
             "type" => "doc",
             "content" => [
               [
@@ -30,9 +30,9 @@ final class HtmlToProseMirrorJsonConverterTest extends TestCase
               ]
             ]
         ]
-                  );
+        );
 
-        $json = $htmlToJsonConverter->convertHtmlToProseMirrorJson('<p>Hello World</p>'); 
+        $json = $htmlToJsonConverter->convertHtmlToProseMirrorJson('<p>Hello World</p>');
 
         $this->assertJsonStringEqualsJsonString($expected, $json);
     }

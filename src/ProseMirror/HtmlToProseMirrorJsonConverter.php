@@ -2,12 +2,10 @@
 
 namespace Parallax\ExposeStatamicExport\ProseMirror;
 
-use ProseMirror\ProseMirror;
 use Tiptap\Editor;
 
 class HtmlToProseMirrorJsonConverter
 {
-
     public function __construct(protected Editor $editor)
     {
 
