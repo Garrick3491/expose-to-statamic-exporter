@@ -5,7 +5,7 @@ namespace Parallax\ExposeStatamicExport\Statamic\Entry;
 use Parallax\ExposeStatamicExport\Statamic\Entry\Exception\DoesNotExistException;
 use Statamic\Facades\Entry;
 
-class EntryRetriver
+class EntryRetriever
 {
     public function getSingleEntry(string $collection, string $id)
     {

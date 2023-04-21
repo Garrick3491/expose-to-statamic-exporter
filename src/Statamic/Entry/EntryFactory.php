@@ -1,5 +1,4 @@
-<?php
-
+<?php 
 namespace Parallax\ExposeStatamicExport\Statamic\Entry;
 
 use Statamic\Facades\Entry;
@@ -9,7 +8,7 @@ class EntryFactory
     public function createNewEntry(string $collection, string $slug, string $blueprint)
     {
         $entry = Entry::make();
-
+        
         $entry->collection($collection)
             ->slug($slug)
             ->blueprint($blueprint);
@@ -17,5 +16,7 @@ class EntryFactory
         return $entry;
     }
 
-
+    
 }
+
+?>

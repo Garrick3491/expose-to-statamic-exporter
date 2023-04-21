@@ -14,7 +14,6 @@ class AssetFactory
 
         $asset = $container->makeAsset($fileName);
 
-
         $file = new UploadedFile($filePath, $fileName);
 
         $asset->upload($file);
