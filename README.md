@@ -64,7 +64,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Credits
 
-- [:author_name](https://github.com/parallax)
+- [Parallax](https://github.com/parallax)
 
 ## License
 
