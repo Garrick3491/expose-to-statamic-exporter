@@ -8,7 +8,6 @@ class TextileParser
 {
     public function __construct(private Parser $parser)
     {
-
     }
 
     public function convertTextileToHtml(string $textile)
