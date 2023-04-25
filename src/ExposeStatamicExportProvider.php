@@ -1,6 +1,6 @@
 <?php
 
-namespace Garrick3491\ExposeStatamicExport\Providers;
+namespace Garrick3491\ExposeStatamicExport;
 
 use Illuminate\Support\ServiceProvider;
 use Garrick3491\ExposeStatamicExport\Statamic\Asset\AssetExists;
