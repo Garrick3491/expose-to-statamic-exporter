@@ -1,13 +1,13 @@
 <?php
 
-namespace Parallax\ExposeStatamicExport\Providers;
+namespace Garrick3491\ExposeStatamicExport\Providers;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
-use Parallax\ExposeStatamicExport\Statamic\Asset\AssetExists;
+use Garrick3491\ExposeStatamicExport\Statamic\Asset\AssetExists;
 use Statamic\Assets\AssetRepository;
 
-class ParallaxExposeStatamicExportProvider extends ServiceProvider
+class ExposeStatamicExportProvider extends ServiceProvider
 {
     public $singletons = [
         // AssetExists::class => AssetRepository::class

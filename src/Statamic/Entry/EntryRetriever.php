@@ -1,8 +1,8 @@
 <?php
 
-namespace Parallax\ExposeStatamicExport\Statamic\Entry;
+namespace Garrick3491\ExposeStatamicExport\Statamic\Entry;
 
-use Parallax\ExposeStatamicExport\Statamic\Entry\Exception\DoesNotExistException;
+use Garrick3491\ExposeStatamicExport\Statamic\Entry\Exception\DoesNotExistException;
 use Statamic\Facades\Entry;
 
 class EntryRetriever

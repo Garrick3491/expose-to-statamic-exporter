@@ -1,6 +1,6 @@
 <?php
 
-namespace Parallax\ExposeStatamicExport\ProseMirror;
+namespace Garrick3491\ExposeStatamicExport\ProseMirror;
 
 use Tiptap\Editor;
 

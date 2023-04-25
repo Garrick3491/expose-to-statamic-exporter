@@ -1,6 +1,6 @@
 <?php
 
-namespace Parallax\ExposeStatamicExport\Expose\Textile;
+namespace Garrick3491\ExposeStatamicExport\Expose\Textile;
 
 use Netcarver\Textile\Parser;
 

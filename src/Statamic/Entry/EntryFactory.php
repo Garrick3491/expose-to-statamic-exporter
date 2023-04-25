@@ -1,6 +1,6 @@
 <?php
 
-namespace Parallax\ExposeStatamicExport\Statamic\Entry;
+namespace Garrick3491\ExposeStatamicExport\Statamic\Entry;
 
 use Statamic\Facades\Entry;
 

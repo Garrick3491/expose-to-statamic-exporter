@@ -1,6 +1,6 @@
 <?php
 
-namespace Parallax\ExposeStatamicExport\Statamic\Asset;
+namespace Garrick3491\ExposeStatamicExport\Statamic\Asset;
 
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Statamic\Assets\AssetContainer;
