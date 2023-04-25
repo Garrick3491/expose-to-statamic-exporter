@@ -2,7 +2,6 @@
 
 namespace Garrick3491\ExposeStatamicExport\Providers;
 
-use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 use Garrick3491\ExposeStatamicExport\Statamic\Asset\AssetExists;
 use Statamic\Assets\AssetRepository;
