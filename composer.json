@@ -1,11 +1,6 @@
 {
     "name": "garrick3491/expose-statamic-export",
     "description": "A Pacakge to assist with exporting data from Expose Cake to Statamic Laravel",
-    "keywords": [
-        ":vendor_name",
-        "laravel",
-        ":package_slug"
-    ],
     "authors": [
         {
             "name": "Simon Garrick",
@@ -30,12 +25,6 @@
             "Parallax\\ExposeStatamicExport\\Tests\\": "tests"
         }
     },
-    "authors": [
-        {
-            "name": "Simon Garrick",
-            "email": "simon.garrick@parall.ax"
-        }
-    ],
     "scripts": {
         "pint": "@php ./vendor/bin/pint src --preset psr12",
 
