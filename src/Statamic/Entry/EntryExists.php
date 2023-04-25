@@ -6,7 +6,7 @@ use Statamic\Facades\Entry;
 
 class EntryExists
 {
-    public function doesEntryExist(string $collection, string $id)
+    public function doesEntryWithIdExist(string $collection, string $id)
     {
         $entry = Entry::query()
             ->where('collection', $collection)
@@ -17,5 +17,18 @@ class EntryExists
         }
 
         return false;
+    }
+
+    public function doesEntryWithSlugExist(string $collection, string $slug)
+    {
+        $entry = Entry::query()
+        ->where('collection', $collection)
+        ->where('slug', $slug);
+
+    if ($entry) {
+        return true;
+    }
+
+    return false;
     }
 }
