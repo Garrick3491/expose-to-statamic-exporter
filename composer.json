@@ -1,5 +1,5 @@
 {
-    "name": "parallax/expose-statamic-export",
+    "name": "garrick3491/expose-statamic-export",
     "description": "A Pacakge to assist with exporting data from Expose Cake to Statamic Laravel",
     "keywords": [
         ":vendor_name",

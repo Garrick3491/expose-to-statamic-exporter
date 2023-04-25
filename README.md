@@ -23,7 +23,7 @@ Example Step by Step.
 You can install the package via composer:
 
 ```bash
-composer require parallax/expose-statamic-export
+composer require  garrick3491/expose-statamic-export
 ```
 
 ## Usage
