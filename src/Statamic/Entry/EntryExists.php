@@ -25,10 +25,10 @@ class EntryExists
         ->where('collection', $collection)
         ->where('slug', $slug);
 
-    if ($entry) {
-        return true;
-    }
+        if ($entry) {
+            return true;
+        }
 
-    return false;
+        return false;
     }
 }
