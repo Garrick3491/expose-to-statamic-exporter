@@ -6,6 +6,13 @@
         "laravel",
         ":package_slug"
     ],
+    "authors": [
+        {
+            "name": "Simon Garrick",
+            "email": "s.garrick1991@gmail.composer",
+            "role": "Developer"
+        }
+    ],
     "type": "library",
     "require": {
         "netcarver/textile": "^4.0",
