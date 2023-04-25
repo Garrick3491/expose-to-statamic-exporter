@@ -71,7 +71,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Credits
 
-- [Parallax](https://github.com/parallax)
+- [Garrick3491](https://github.com/Garrick3491)
 
 ## License
 
