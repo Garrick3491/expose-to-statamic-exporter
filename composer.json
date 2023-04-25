@@ -17,12 +17,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Parallax\\ExposeStatamicExport\\": "src"
+            "Garrick3491\\ExposeStatamicExport\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Parallax\\ExposeStatamicExport\\Tests\\": "tests"
+            "Garrick3491\\ExposeStatamicExport\\Tests\\": "tests"
         }
     },
     "scripts": {

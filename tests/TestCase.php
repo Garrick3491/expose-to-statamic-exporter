@@ -1,6 +1,6 @@
 <?php
 
-namespace Parallax\ExposeStatamicExport\Tests;
+namespace Garrick3491\ExposeStatamicExport\Tests;
 
 use Orchestra\Testbench\TestCase as TestbenchTestCase;
 

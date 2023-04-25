@@ -1,9 +1,9 @@
 <?php
 
-namespace Parallax\ExposeStatamicExport\Tests\ProseMirror;
+namespace Garrick3491\ExposeStatamicExport\Tests\ProseMirror;
 
-use Parallax\ExposeStatamicExport\ProseMirror\HtmlToProseMirrorJsonConverter;
-use Parallax\ExposeStatamicExport\Tests\TestCase;
+use Garrick3491\ExposeStatamicExport\ProseMirror\HtmlToProseMirrorJsonConverter;
+use Garrick3491\ExposeStatamicExport\Tests\TestCase;
 use Tiptap\Editor;
 
 final class HtmlToProseMirrorJsonConverterTest extends TestCase

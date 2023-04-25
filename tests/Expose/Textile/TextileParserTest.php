@@ -1,10 +1,10 @@
 <?php
 
-namespace Parallax\ExposeStatamicExport\Tests\Expose\Textile;
+namespace Garrick3491\ExposeStatamicExport\Tests\Expose\Textile;
 
 use Netcarver\Textile\Parser;
-use Parallax\ExposeStatamicExport\Expose\Textile\TextileParser;
-use Parallax\ExposeStatamicExport\Tests\TestCase;
+use Garrick3491\ExposeStatamicExport\Expose\Textile\TextileParser;
+use Garrick3491\ExposeStatamicExport\Tests\TestCase;
 
 final class TextileParserTest extends TestCase
 {
