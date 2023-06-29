@@ -57,7 +57,7 @@ echo $entryRetriever->getSingleEntry('news', '********-****-****-****-********')
 
 ```php
 $textileParser = new TextileParser();
-echo $entryRetriever->convertTextileToHtml('h2. *Some Text*') // returns string HTML;
+echo $textileParser->convertTextileToHtml('h2. *Some Text*') // returns string HTML;
 ```
 
 ```php
